@@ -1,17 +1,16 @@
-"""
-Notes:
-Generics 
-    * It is an important part of strongly typed languages
-    * Allows generalizations of what can be put in a data structure
-        * Data Structure - The containers of data
-    * Generics help fix data structures from being programmed to a certain type
-    * Allow a type or method to operate on objects of various types while providing compile time type
-"""
+// """
+// Notes:
+// Generics 
+//     * It is an important part of strongly typed languages
+//     * Allows generalizations of what can be put in a data structure
+//         * Data Structure - The containers of data
+//     * Generics help fix data structures from being programmed to a certain type
+//     * Allow a type or method to operate on objects of various types while providing compile time type-safe
+// """
 
-"""
-Problem: 
-Write a single generic function named printArray; this function must take an array of generic elements as a parameter
-"""
+// Problem: 
+// Write a single generic function named printArray; this function must take an array of generic elements as a parameter
+
 import java.util.*;
 
 class Printer <T> {
